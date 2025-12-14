@@ -19,14 +19,11 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 | 28-Subagent Power Pack | Repo | Security, compliance, changelogs, SQL tuning & more (ready-to-use agents) | [wshobson/agents] |
 | Claude Code Dev Kit | Meta-Repo | Sets up docs, multi-agent templates, hooks & MCP server integration | [peterkrueck/Claude-Code-Development-Kit] |
 
-## 🆕 New Community Discoveries & Specialized Collections
+## 🌍 Community Repositories
 
-| Repository | Focus & Highlights |
-|---|---|
-| **[valllabh/claude-agents](https://github.com/valllabh/claude-agents)** | **Interactive Workflows**: Enhanced agents with structured, interactive elicitation (1-9 options). Includes Analyst, Scrum Master, Developer, Product Manager, Architect, QA, and UX Expert. |
-| **[hesreallyhim/a-list-of-claude-code-agents](https://github.com/hesreallyhim/a-list-of-claude-code-agents)** | **Community List**: A growing list of individual agents like `backend-typescript-architect`, `react-coder`, and `senior-code-reviewer`. |
-| **[vizra-ai/claude-code-agents](https://github.com/vizra-ai/claude-code-agents)** | **Massive Squad**: 59 specialized agents covering Marketing, Design, DevOps, and Business Strategy. |
-| **[lst97/claude-code-sub-agents](https://github.com/lst97/claude-code-sub-agents)** | **Full-Stack Focus**: Personal collection for full-stack dev (Frontend, Backend, Mobile, DevOps). |
+We have compiled a comprehensive list of **community-contributed agent repositories** in a separate file. This includes massive collections, specialized toolsets, and niche agents.
+
+👉 **[See the full list of Community Agent Repositories](COMMUNITY_AGENTS.md)**
 
 ## 🆕 Latest & Featured Agent Collections (August 2025)
 
