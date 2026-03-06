@@ -1,12 +1,22 @@
-# Awesome Claude Agents 🚀 - Complete Directory (Updated August 2025)
+# Awesome Claude Agents 🚀 - Complete Directory (Updated March 2026)
 
 A community-driven collection **Claude Code agents** and sub-agents—turn your Claude instance into an unstoppable team of domain experts! This repo catalogs plug-and-play agents, agent frameworks, and orchestration recipes contributed by the community and curated from public sources.
 
-The Claude Code agent ecosystem has exploded with hundreds of specialized sub-agents, frameworks, and orchestration tools. Here's the most comprehensive directory of all available Claude Code agents, repositories, guides, and resources.
+The Claude Code agent ecosystem has exploded with hundreds of specialized sub-agents, frameworks, orchestration tools, skills libraries, and IDE extensions. Here's the most comprehensive directory of all available Claude Code agents, repositories, SDKs, skills, guides, and resources.
 
 ### What are Claude Agents?
 
 **Claude Agents** are specialized, task-focused AI "teammates" defined via simple Markdown+YAML files. Each agent lives in `.claude/agents/` and is scoped with a clear role, tool set, and behaviour prompt. With sub-agent support, Claude Code can now delegate complex projects to expert agents who work in parallel—just like a real engineering team!
+
+## 🏛️ Official Anthropic Tools & SDKs
+
+| Repository | Description | Key Features |
+|---|---|---|
+| **[anthropics/claude-code](https://github.com/anthropics/claude-code)** | The official agentic coding tool | Terminal-native, understands full codebases, sub-agent support |
+| **[anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python)** | Official Python Agent SDK | Build production agents, Claude Code CLI integration |
+| **[anthropics/claude-agent-sdk-typescript](https://github.com/anthropics/claude-agent-sdk-typescript)** | Official TypeScript Agent SDK | Build agents in TS/JS, streaming support |
+| **[anthropics/claude-agent-sdk-demos](https://github.com/anthropics/claude-agent-sdk-demos)** | SDK demo projects | Reference implementations, starter templates |
+| **[anthropics/skills](https://github.com/anthropics/skills)** | Official Agent Skills repository | Community & official skills for Claude Code |
 
 ## 🌟 Featured Agents & Repos
 
@@ -30,6 +40,11 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 | **[vijaythecoder/awesome-claude-agents](https://github.com/vijaythecoder/awesome-claude-agents)** | 26 | Jul 2025 | AI development team with Tech Lead, Analyst, and specialized domain experts |
 | **[davepoon/claude-code-subagents-collection](https://github.com/davepoon/claude-code-subagents-collection)** | 36 | Jul 2025 | Comprehensive collection with auto-delegation and best practices guide |
 | **[charles-adedotun/claude-code-sub-agents](https://github.com/charles-adedotun/claude-code-sub-agents)** | Full ecosystem | Jul 2025 | Workflow-stage based system mapping entire dev lifecycle |
+| **[VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents)** | 100+ | 2025 | Wide range of development use cases, well-categorized |
+| **[lodetomasi/agents-claude-code](https://github.com/lodetomasi/agents-claude-code)** | 100 | 2025 | Hyper-specialized for React, AWS, Kubernetes, ML, Security |
+| **[hesreallyhim/a-list-of-claude-code-agents](https://github.com/hesreallyhim/a-list-of-claude-code-agents)** | Community | 2025 | Community-submitted agent directory with diverse contributions |
+| **[valllabh/claude-agents](https://github.com/valllabh/claude-agents)** | Specialized | 2025 | Focused agent implementations for Claude Code |
+| **[vizra-ai/claude-code-agents](https://github.com/vizra-ai/claude-code-agents)** | Curated | 2025 | Curated Claude Code agent implementations |
 
 ### **Specialized Frameworks & Tools**
 
@@ -39,6 +54,19 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 | **[webdevtodayjason/sub-agents](https://github.com/webdevtodayjason/sub-agents)** | CLI Manager | NPM installable, context-forge integration, bulk management |
 | **[baryhuang/claude-code-by-agents](https://github.com/baryhuang/claude-code-by-agents)** | Desktop app | Multi-agent workspace, @agent mentions, local+remote agents |
 | **[Dicklesworthstone/claude_code_agent_farm](https://github.com/Dicklesworthstone/claude_code_agent_farm)** | Orchestration | Multiple Claude sessions in parallel, systematic codebase improvement |
+
+### **Multi-Agent Orchestration Platforms**
+
+| Repository | Purpose | Key Features |
+|---|---|---|
+| **[smtg-ai/claude-squad](https://github.com/smtg-ai/claude-squad)** | Multi-agent terminal manager | Manage Claude Code, Codex, Aider, Gemini agents in separate workspaces; 5.6k+ stars |
+| **[ruvnet/ruflo](https://github.com/ruvnet/ruflo)** | Agent orchestration platform | Multi-agent swarms, enterprise architecture, RAG integration |
+| **[affaan-m/claude-swarm](https://github.com/affaan-m/claude-swarm)** | Multi-agent orchestration | Task decomposition, real-time coordination, rich terminal UI |
+| **[nwiizo/ccswarm](https://github.com/nwiizo/ccswarm)** | Workflow automation | Git worktree isolation for parallel multi-agent development |
+| **[bobmatnyc/claude-mpm](https://github.com/bobmatnyc/claude-mpm)** | Multi-Agent Project Manager | 47+ specialized agents, 44+ bundled skills |
+| **[0ldh/claude-code-agents-orchestra](https://github.com/0ldh/claude-code-agents-orchestra)** | Coordinated agent teams | 40+ specialized AI agents working in concert |
+| **[ciscoittech/claude-agent-framework](https://github.com/ciscoittech/claude-agent-framework)** | Multi-agent dev framework | 97% context reduction, 3-6x faster execution |
+| **[cexll/myclaude](https://github.com/cexll/myclaude)** | Multi-model orchestration | Coordinates Claude Code, Codex, Gemini, and OpenCode agents |
 
 ### **Individual Contributor Collections**
 
@@ -72,6 +100,44 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 | **[How to use Claude Code Agents](https://www.youtube.com/watch?v=tw6AJ8nxu48)** | Various | N/A | PACT framework for refined agents |
 | **[My Claude Code Sub Agents BUILD THEMSELVES](https://www.youtube.com/watch?v=7B2HJr0Y68g)** | Various | N/A | Self-building agent patterns |
 
+## 🧩 Skills Libraries & Universal Loaders
+
+| Repository | Scale | Key Features |
+|---|---|---|
+| **[VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)** | 500+ skills | Compatible with Claude Code, Codex, Antigravity, Gemini CLI, Cursor |
+| **[sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)** | 900+ skills | Battle-tested, high-performance agentic skills |
+| **[travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills)** | Curated | Claude Skills, resources, and tools for customizing workflows |
+| **[numman-ali/openskills](https://github.com/numman-ali/openskills)** | Universal loader | Load skills across Claude Code, Cursor, Windsurf, Aider, Codex |
+| **[agentskills/agentskills](https://github.com/agentskills/agentskills)** | Specification | Agent Skills spec and documentation |
+
+## 🖥️ IDE Extensions & Developer Tools
+
+| Repository | Platform | Description |
+|---|---|---|
+| **[cline/cline](https://github.com/cline/cline)** | VS Code | Autonomous coding agent extension; creates/edits files, runs commands, uses browser |
+| **[Haleclipse/Claudix](https://github.com/Haleclipse/Claudix)** | VS Code | Claude Code extension for VS Code |
+| **[coder/claudecode.nvim](https://github.com/coder/claudecode.nvim)** | Neovim | Claude Code IDE extension for Neovim |
+| **[Dev-GOM/claude-code-marketplace](https://github.com/Dev-GOM/claude-code-marketplace)** | Marketplace | Plugins, extensions, hooks, and commands for Claude Code |
+
+## 🔍 Hooks, Observability & Best Practices
+
+| Repository | Focus | Description |
+|---|---|---|
+| **[disler/claude-code-hooks-multi-agent-observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)** | Observability | Real-time monitoring for Claude Code agents via hook event tracking |
+| **[disler/claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery)** | Hooks guide | Master guide and examples for Claude Code Hooks |
+| **[shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice)** | Best practices | Comprehensive best practice guides for Claude Code usage |
+
+## 📖 Awesome Lists & Resource Directories
+
+| Repository | Focus | Description |
+|---|---|---|
+| **[hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** | Claude Code | Skills, hooks, slash-commands, agent orchestrators, apps, plugins |
+| **[jqueryscript/awesome-claude-code](https://github.com/jqueryscript/awesome-claude-code)** | Claude Code | Tools, IDE integrations, frameworks, and resources |
+| **[tonysurfly/awesome-claude](https://github.com/tonysurfly/awesome-claude)** | Claude general | Curated list of everything related to Anthropic Claude |
+| **[punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** | MCP servers | Comprehensive collection of MCP servers |
+| **[ranpox/awesome-computer-use](https://github.com/ranpox/awesome-computer-use)** | Computer use | Resources for computer-use GUI agents (papers, projects, tools) |
+| **[quemsah/awesome-claude-plugins](https://github.com/quemsah/awesome-claude-plugins)** | Plugins | Automated Claude Code plugin adoption metrics |
+
 ## 🏗️ Agent Categories & Use Cases
 
 ### **Development Lifecycle Agents**
@@ -98,8 +164,11 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 
 ### **Agent Sharing Platforms**
 - **[subagents.cc](https://www.subagents.cc/)** - Dedicated Claude agent directory
+- **[awesomeclaude.ai](https://awesomeclaude.ai/)** - Comprehensive Claude resource directory
+- **[claudemcp.com/servers](https://www.claudemcp.com/servers)** - MCP server directory
+- **[mcpservers.org](https://mcpservers.org/)** - Curated MCP server list
 - **Reddit Communities**: r/ClaudeAI, r/programming - Active sharing and discussion
-- **GitHub Topics**: #claude-agents, #claude-code, #subagents
+- **GitHub Topics**: #claude-agents, #claude-code, #subagents, #claude-skills
 
 ### **Multi-Agent Orchestration Examples**
 - **[Multi-Agent Orchestration System](https://www.reddit.com/r/ClaudeAI/comments/1l11fo2/how_i_built_a_multiagent_orchestration_system/)** - 4-agent VSCode terminal setup
@@ -123,16 +192,21 @@ The Claude Code agent ecosystem has exploded with hundreds of specialized sub-ag
 ## 📊 Quick Reference
 
 ### **Most Popular Repositories (by stars/usage)**
-1. **wshobson/agents** - 248+ stars, production-ready
-2. **iannuttall/claude-agents** - 248 stars, community favorite
-3. **0xfurai/claude-code-subagents** - Newest, largest collection
-4. **vijaythecoder/awesome-claude-agents** - AI development focus
+1. **smtg-ai/claude-squad** - 5.6k+ stars, multi-agent terminal manager
+2. **cline/cline** - Massively popular autonomous VS Code agent
+3. **wshobson/agents** - 248+ stars, production-ready agents & orchestration
+4. **iannuttall/claude-agents** - 248 stars, community favorite
+5. **0xfurai/claude-code-subagents** - Largest single collection (100+)
+6. **ruvnet/ruflo** - Leading orchestration platform
 
 ### **Best Starting Points**
 - **Beginners**: iannuttall/claude-agents (7 agents, simple setup)
 - **Production Teams**: wshobson/agents (48 agents, enterprise patterns)
 - **Maximum Coverage**: 0xfurai/claude-code-subagents (100+ agents)
 - **Development Teams**: vijaythecoder/awesome-claude-agents (orchestrated workflow)
+- **Multi-Agent Orchestration**: smtg-ai/claude-squad (manage multiple agents)
+- **Skills & Extensibility**: VoltAgent/awesome-agent-skills (500+ skills)
+- **Official SDK**: anthropics/claude-agent-sdk-python (build your own agents)
 
 ## 🛠️ Installation & Setup
 
@@ -147,8 +221,35 @@ git clone https://github.com/wshobson/agents ~/.claude/agents/wh-production
 # AI development team (26 agents)
 git clone https://github.com/vijaythecoder/awesome-claude-agents ~/.claude/agents/ai-team
 
-# Comprehensive collection (36 agents) 
+# Comprehensive collection (36 agents)
 git clone https://github.com/davepoon/claude-code-subagents-collection ~/.claude/agents/comprehensive
+
+# 100 hyper-specialized agents (React, AWS, K8s, ML, Security)
+git clone https://github.com/lodetomasi/agents-claude-code ~/.claude/agents/hyper-specialized
+
+# 40+ coordinated agent orchestra
+git clone https://github.com/0ldh/claude-code-agents-orchestra ~/.claude/agents/orchestra
+```
+
+### **Install Multi-Agent Orchestration Tools**
+```bash
+# Claude Squad - manage multiple agents in terminal
+# See: https://github.com/smtg-ai/claude-squad
+
+# Ruflo - agent orchestration platform
+git clone https://github.com/ruvnet/ruflo
+
+# ccswarm - workflow automation with Git worktree isolation
+git clone https://github.com/nwiizo/ccswarm
+```
+
+### **Install Skills**
+```bash
+# 500+ agent skills (compatible with Claude Code, Codex, Gemini CLI, Cursor)
+git clone https://github.com/VoltAgent/awesome-agent-skills
+
+# Universal skills loader
+git clone https://github.com/numman-ali/openskills
 ```
 
 ### **Install Management Tools**
@@ -232,18 +333,26 @@ Mix and match roles, tweak YAML front-matter, and contribute your own agents bac
 - **Keep Context Lean:** Set concise system prompts to control token cost per spawn.
 - **Provide Dry-Run / Interactive Modes:** Where possible, so users stay in control.
 
-## 🚀 The Claude Agent Ecosystem (August 2025)
+## 🚀 The Claude Agent Ecosystem (March 2026)
 
-This directory represents the complete ecosystem as of August 2025. The Claude Code agent community continues to grow rapidly, with new repositories, tools, and patterns emerging weekly. 
+This directory represents the complete ecosystem as of March 2026. Since August 2025, the ecosystem has seen explosive growth with official Anthropic SDKs, multi-agent orchestration platforms, 900+ skill libraries, and IDE extensions across VS Code and Neovim.
 
-### **Future Developments & Emerging Trends**
-- **Agent Marketplaces**: Community-driven agent sharing platforms
-- **Cross-Platform Integration**: Agents working across different development environments  
-- **Self-Improving Agents**: Agents that modify and optimize themselves
-- **Multi-Model Orchestration**: Different Claude models for different agent roles
-- **Real-Time Collaboration**: Multiple users working with shared agent teams
+### **What's New Since August 2025**
+- **Official Agent SDKs**: Anthropic released Python & TypeScript Agent SDKs for building production agents
+- **Claude Squad**: Multi-agent terminal manager reached 5.6k+ stars
+- **Skills Ecosystem**: 500-900+ reusable skills compatible across multiple AI coding tools
+- **Orchestration Platforms**: Ruflo, ccswarm, and claude-swarm enable sophisticated multi-agent workflows
+- **IDE Integration**: Claude Code extensions now available for VS Code and Neovim
+- **Hooks & Observability**: Real-time monitoring and debugging tools for agent workflows
 
-For the latest updates, monitor the GitHub repositories and Reddit communities listed in the Community & Platforms section above.
+### **Emerging Trends**
+- **Universal Skills**: Skills that work across Claude Code, Codex, Cursor, Gemini CLI, and more
+- **Multi-Model Orchestration**: Coordinating Claude, Codex, Gemini, and other models in unified workflows
+- **Git Worktree Isolation**: Parallel agent development with isolated workspaces
+- **Agent Marketplaces**: Community-driven platforms like subagents.cc and awesomeclaude.ai maturing
+- **Enterprise Adoption**: Production-grade frameworks with context reduction and performance optimization
+
+For the latest updates, monitor the GitHub repositories and community platforms listed above.
 
 ## 🤝 Contributing
 
